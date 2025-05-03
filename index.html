@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>SAM CLIMATIZA - Soluções para Ambientes Climatizados</title>
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>❄️</text></svg>">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- CSS customizado -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header / Navbar -->
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <!-- Substituindo a imagem por um logo temporário estilizado -->
+                    <div class="temp-logo">
+                        <span class="sam-text">SAM</span> <span class="climatiza-text">CLIMATIZA</span>
+                        <div class="snowflake-icon"><i class="fas fa-snowflake"></i></div>
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#inicio">
+                                <span class="nav-link-text">Início</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#servicos">
+                                <span class="nav-link-text">Serviços</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">
+                                <span class="nav-link-text">Sobre</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#produtos">
+                                <span class="nav-link-text">Produtos</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#depoimentos">
+                                <span class="nav-link-text">Depoimentos</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">
+                                <span class="nav-link-text">Contato</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="ms-lg-3 mt-3 mt-lg-0">
+                        <a href="#contato" class="btn btn-primary nav-btn">Orçamento Rápido</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Seção Hero -->
+    <section id="inicio" class="hero-section">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row hero-content">
+                <div class="col-lg-6">
+                    <h1>Soluções Completas em Climatização</h1>
+                    <p class="hero-text">
+                        Conforto térmico e qualidade do ar para sua casa ou empresa. 
+                        Especialistas em instalação, manutenção e reparo de sistemas de ar-condicionado.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contato" class="btn btn-primary btn-lg">Solicitar Orçamento</a>
+                        <a href="#servicos" class="btn btn-outline-light btn-lg ms-3">Nossos Serviços</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Serviços -->
+    <section id="servicos" class="section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Nossos Serviços</h2>
+                <p>Soluções completas para seu conforto térmico</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3>Instalação</h3>
+                        <p>Instalação profissional de sistemas de ar-condicionado residenciais e comerciais com garantia de serviço.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-sync-alt"></i>
+                        </div>
+                        <h3>Manutenção</h3>
+                        <p>Serviços preventivos e corretivos para manter seu equipamento funcionando com eficiência máxima.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-snowflake"></i>
+                        </div>
+                        <h3>Climatização</h3>
+                        <p>Projetos de climatização para ambientes comerciais, residenciais e industriais com soluções personalizadas.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <h3>Soluções Empresariais</h3>
+                        <p>Sistemas de climatização para empresas, escritórios e ambientes corporativos com controle de temperatura e umidade.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <h3>Residencial</h3>
+                        <p>Instalação e manutenção de ar-condicionado em casas e apartamentos para conforto térmico em todos os ambientes.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-wrench"></i>
+                        </div>
+                        <h3>Assistência Técnica</h3>
+                        <p>Reparo e assistência técnica para todas as marcas e modelos de ar-condicionado com pronto atendimento.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre Nós -->
+    <section id="sobre" class="section-padding bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <img src="https://img.freepik.com/fotos-gratis/homens-trabalhando-com-equipamento-tiro-completo_23-2148921408.jpg?t=st=1746230510~exp=1746234110~hmac=22b27c74c121a042ff529d32856c9e4f55ecedff965b725a8376d954bd3bbc8c&w=996" alt="Técnico em manutenção" class="img-fluid rounded shadow-lg">
+                </div>
+                <div class="col-lg-6 mt-4 mt-lg-0">
+                    <div class="section-header">
+                        <h2>Sobre a SAM CLIMATIZA</h2>
+                        <p>Referência em climatização</p>
+                    </div>
+                    <p class="mb-4">
+                        A SAM CLIMATIZA atua no mercado de climatização há mais de 03 anos, oferecendo soluções completas para ambientes residenciais, comerciais e industriais. Nossa equipe é formada por profissionais altamente qualificados e certificados para garantir a melhor qualidade nos serviços prestados.
+                    </p>
+                    <p class="mb-4">
+                        Temos como missão proporcionar conforto térmico e qualidade do ar com soluções eficientes e sustentáveis, sempre com foco na satisfação do cliente e respeito ao meio ambiente.
+                    </p>
+                    <div class="row achievements">
+                        <div class="col-6 col-md-4 achievement">
+                            <div class="counter">50+</div>
+                            <div class="achievement-text">Clientes Satisfeitos</div>
+                        </div>
+                        <div class="col-6 col-md-4 achievement">
+                            <div class="counter">03+</div>
+                            <div class="achievement-text">Anos de Experiência</div>
+                        </div>
+                        <div class="col-6 col-md-4 achievement">
+                            <div class="counter">5+</div>
+                            <div class="achievement-text">Técnicos Qualificados</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Produtos -->
+    <section id="produtos" class="section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Nossos Produtos</h2>
+                <p>Trabalhamos com as melhores marcas do mercado</p>
+            </div>
+            <div class="row">
+                <!-- Produto 1: Ar-condicionado Split -->
+                <div class="col-md-4 mb-4">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://img.freepik.com/fotos-gratis/uma-mao-a-verificar-o-ar-condicionado-na-sala_157027-3103.jpg?t=st=1746229623~exp=1746233223~hmac=9ba4c448c46448fc5e7bb37cf350d58fb5c8e9498742442d6cb8fd719bd0302d&w=1380" 
+                                 alt="Ar-condicionado Split" 
+                                 class="img-fluid">
+                        </div>
+                        <div class="product-info">
+                            <h3>Ar-condicionado Split</h3>
+                            <p>Modelos residenciais e comerciais de diversas capacidades e marcas.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Produto 2: Ar-condicionado Cassete -->
+                <div class="col-md-4 mb-4">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://www.fujitsu-general.com/shared/br/img-fcbr-split-c-cassete-01.png" 
+                                 alt="Ar-condicionado Cassete" 
+                                 class="img-fluid">
+                        </div>
+                        <div class="product-info">
+                            <h3>Ar-condicionado Cassete</h3>
+                            <p>Ideal para ambientes comerciais, escritórios e lojas.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Produto 3: Multi-Split -->
+                <div class="col-md-4 mb-4">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://poloar.vteximg.com.br/arquivos/ids/167414-490-490/multi-split-lg-48000-2xevap18k-2x-evap-artcool-18k--poloar.png?v=637556677089300000" 
+                                 alt="Multi-Split" 
+                                 class="img-fluid">
+                        </div>
+                        <div class="product-info">
+                            <h3>Multi-Split</h3>
+                            <p>Sistema que permite conectar várias unidades internas a uma única unidade externa.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="#contato" class="btn btn-primary btn-lg">Solicitar Catálogo Completo</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Por que nos escolher -->
+    <section class="why-us section-padding bg-light">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Por Que Escolher a SAM CLIMATIZA?</h2>
+                <p>Excelência em todos os serviços</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <h3>Garantia de Serviço</h3>
+                        <p>Oferecemos garantia em todos os nossos serviços e produtos instalados.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <h3>Profissionais Qualificados</h3>
+                        <p>Equipe técnica treinada e certificada para atender todas as necessidades.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>Atendimento Rápido</h3>
+                        <p>Pronto atendimento para manutenção e instalação de equipamentos.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-hand-holding-heart"></i>
+                        </div>
+                        <h3>Compromisso</h3>
+                        <p>Comprometimento com a satisfação dos clientes em cada serviço realizado.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Depoimentos -->
+    <section id="depoimentos" class="section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>O Que Dizem Nossos Clientes</h2>
+                <p>Depoimentos de clientes satisfeitos</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"Excelente serviço! A equipe da SAM CLIMATIZA foi muito profissional na instalação do ar-condicionado em minha casa. Recomendo a todos."</p>
+                        </div>
+                        <div class="testimonial-info">
+                            <h4>Fernanda Silva</h4>
+                            <p class="client-type">Cliente Residencial</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"Contratamos a SAM CLIMATIZA para a climatização completa da nossa empresa e o resultado foi incrível. Serviço rápido e de qualidade."</p>
+                        </div>
+                        <div class="testimonial-info">
+                            <h4>Carlos Eduardo</h4>
+                            <p class="client-type">Cliente Empresarial</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"A manutenção preventiva realizada pela equipe da SAM CLIMATIZA permitiu economizar energia e aumentar a vida útil dos aparelhos. Super recomendo!"</p>
+                        </div>
+                        <div class="testimonial-info">
+                            <h4>Mariana Costa</h4>
+                            <p class="client-type">Cliente Comercial</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção CTA (Call to Action) -->
+    <section class="cta-section">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2>Pronto para melhorar o conforto térmico do seu ambiente?</h2>
+                    <p>Entre em contato agora mesmo e solicite um orçamento gratuito</p>
+                    <a href="#contato" class="btn btn-primary btn-lg">Fale Conosco</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contato" class="section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Entre em Contato</h2>
+                <p>Estamos prontos para atender você</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="icon"><i class="fas fa-phone"></i></div>
+                            <div class="content">
+                                <h4>Telefone</h4>
+                                <p>(31) 99860-2232</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon"><i class="fas fa-envelope"></i></div>
+                            <div class="content">
+                                <h4>E-mail</h4>
+                                <p>samclimatiza@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon"><i class="fas fa-clock"></i></div>
+                            <div class="content">
+                                <h4>Horário de Atendimento</h4>
+                                <p>Segunda a Sexta: 8h às 18h<br>Sábado: 8h às 12h</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-media mt-4">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://instagram.com/sam_climatiza" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/5531998602232" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-4 mt-lg-0">
+                    <form class="contact-form" id="contactForm" onsubmit="openEmail(event, 'contact')">
+                        <div class="row g-3">
+                            <div class="col-md-6 mb-3">
+                                <input type="text" name="Nome" id="nome" class="form-control" placeholder="Nome completo" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <input type="email" name="Email" id="email" class="form-control" placeholder="E-mail" required>
+                            </div>
+                        </div>
+                        <div class="row g-3">
+                            <div class="col-md-6 mb-3">
+                                <input type="tel" name="Telefone" id="telefone" class="form-control" placeholder="Telefone" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <select name="Servico" id="servico" class="form-select" required>
+                                    <option value="" selected disabled>Tipo de serviço</option>
+                                    <option>Instalação</option>
+                                    <option>Manutenção</option>
+                                    <option>Orçamento</option>
+                                    <option>Outros</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <textarea name="Mensagem" id="mensagem" class="form-control" rows="5" placeholder="Mensagem" required></textarea>
+                        </div>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                            <button type="submit" class="btn btn-primary btn-lg">Enviar Mensagem</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <!-- Usando a mesma logo do header no footer -->
+                    <div class="temp-logo footer-logo-same">
+                        <span class="sam-text">SAM</span> <span class="climatiza-text">CLIMATIZA</span>
+                        <div class="snowflake-icon"><i class="fas fa-snowflake"></i></div>
+                    </div>
+                    <p>Soluções completas em climatização para ambientes residenciais, comerciais e industriais.</p>
+                </div>
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h4>Links Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#sobre">Sobre Nós</a></li>
+                        <li><a href="#produtos">Produtos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h4>Newsletter</h4>
+                    <p>Inscreva-se para receber nossas novidades e promoções.</p>
+                    <form class="newsletter-form" id="newsletterForm" onsubmit="openEmail(event, 'newsletter')">
+                        <div class="input-group mb-3">
+                            <input type="email" name="Email" id="newsletter-email" class="form-control" placeholder="Seu e-mail" required>
+                            <button class="btn btn-primary" type="submit">Inscrever</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <hr class="mt-4 mb-4">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; 2025 SAM CLIMATIZA. Todos os direitos reservados.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="mb-0">Desenvolvido por <a href="https://www.linkedin.com/in/fernandoruan/" class="text-white">Fernando Santos</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão WhatsApp flutuante -->
+    <a href="https://wa.me/5531998602232" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JavaScript customizado -->
+    <script src="js/script.js"></script>
+</body>
+</html>
